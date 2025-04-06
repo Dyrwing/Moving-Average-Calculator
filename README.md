@@ -8,7 +8,6 @@ The Moving Average Calculator is a tool that computes the moving average of time
 
 - **Backend**: Python, Flask
 - **Frontend**: React, Vite
-- **API Communication**: REST API
 - **Package Managers**:
   - `pip` for backend dependencies
   - `npm` or `yarn` for frontend dependencies
