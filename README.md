@@ -75,9 +75,9 @@ The server should start on http://localhost:5000 by default.
 
 ### 3. Frontend Setup
 
-Navigate to the frontend directory:
+Navigate to the my-app directory in another terminal:
 ```bash
-cd frontend
+cd my-app
 ```
 Install dependencies:
 ```bash
@@ -95,7 +95,7 @@ or with yarn:
 ```bash
 yarn dev
 ```
-The Vite development server should start on http://localhost:5173 by default.
+The Vite development server should start on http://localhost:5173 by default. You can access the frontend application in your web browser.
 
 ## Development
 To work on this project, you'll need to run both the backend and frontend servers simultaneously.
