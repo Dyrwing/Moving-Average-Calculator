@@ -1,6 +1,8 @@
 # Moving Average Calculator
 
-This project is a full stack web application built with **Flask** as the backend and **React (Vite)** as the frontend.
+The Moving Average Calculator is a tool that computes the moving average of time-series data over a user-specified number of days. This application allows users to select an instrument from a dataset and input the number of days for the moving average calculation. It then outputs the average values for the selected period, helping to smooth out short-term fluctuations and highlight longer-term trends in the data
+
+
 
 ## 🛠 Tech Stack
 
@@ -11,14 +13,20 @@ This project is a full stack web application built with **Flask** as the backend
   - `pip` for backend dependencies
   - `npm` or `yarn` for frontend dependencies
 
+## Coding Choices
+- **Backend**: Flask is used for its simplicity and ease of use in building RESTful APIs. It allows for quick development and is lightweight.
+- **Frontend**: React with Vite is chosen for its fast development experience and modern features. Vite provides a great development server and build tool, making it easy to work with React.
+- **Data Sorting and Cleaning**: Created a separate function to handle data sorting and cleaning. This function is responsible for preparing the dataset for later analysis and visualization.
+- **Moving Average Calculation**: Implemented a function to calculate the moving average of the dataset. The rolling window function from pandas is used to compute the average for a moving window of prices.
+- **API endpoints**: Created two enpoints, for both the calculation of the moving average, and to get the amount of instruments in the giving dataset
+- **Visualization**: Used reChart.js for data visualization. It provides a simple way to create interactive charts and graphs, making it easy to visualize the moving average data.
 ---
 
----
 
 ## ⚙️ Prerequisites
 
-- Python 3.8+
-- Node.js (v14 or later)
+- Python 3.12.4
+- Node.js v18.18.0
 - npm or yarn
 
 ---
@@ -28,8 +36,8 @@ This project is a full stack web application built with **Flask** as the backend
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Dyrwing/Moving-Average-Calculator.git
+cd Moving-Average-Calculator
 ```
 
 ### 2. Backend Setup
