@@ -41,7 +41,7 @@ function App() {
   const fetchMovingAverage = async () => {
     try {
       console.log("Fetching moving average...");
-
+      // fetch moving averages from the backend
       const response = await fetch("http://127.0.0.1:5000/calculate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -119,6 +119,7 @@ function App() {
         <input
           type="number"
           value={period}
+          placeholder='period...'
           onChange={(e) => setPeriod(e.target.value)}
         />
       </div>
