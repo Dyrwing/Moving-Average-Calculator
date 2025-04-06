@@ -19,7 +19,7 @@ The Moving Average Calculator is a tool that computes the moving average of time
 - **Data Sorting and Cleaning**: Created a separate function to handle data sorting and cleaning. This function is responsible for preparing the dataset for later analysis and visualization.
 - **Moving Average Calculation**: Implemented a function to calculate the moving average of the dataset. The rolling window function from pandas is used to compute the average for a moving window of prices.
 - **API endpoints**: Created two enpoints, for both the calculation of the moving average, and to get the amount of instruments in the giving dataset
-- **Visualization**: Used reChart.js for data visualization. It provides a simple way to create interactive charts and graphs, making it easy to visualize the moving average data.
+- **Visualization**: Used recharts for data visualization. It provides a simple way to create interactive charts and graphs, making it easy to visualize the moving average data.
 ---
 
 
